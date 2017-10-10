@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+    head
+        style
+            include style.css
+            title="Last Survey Results"
+    body
+        #wrapperBody
+            #center
+                div(style="float:right;")
+                    form(action='/logout')
+                        input(type="submit", value="Logout")
+                h1 Last Survey Results for #{username}
+                li Question 1: #{question1}
+                li Answer 1: #{answer1}
+                li Question 2: #{question2}
+                li Answer 2: #{answer2}
+                li Question 3: #{question3}
+                li Answer 3: #{answer3}
+                li Question 4: #{question4}
+                li Answer 4: #{answer4}
+                form(action='/backAdmin')
+                    input(type="submit", value="Back")
+                form(action='/adminDeleteSurvey/' + username)
+                    input(type="submit", value="Delete Survey")

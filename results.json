@@ -1,0 +1,29 @@
+[
+  {
+    "username": "test",
+    "answers": [
+      "Arthur",
+      "To find the Grail",
+      "Blue",
+      "I don't know that!"
+    ]
+  },
+  {
+    "username": "Jessica",
+    "answers": [
+      "Guineviere",
+      "To find the Knights who say Ni!",
+      "I don't know",
+      "I don't know that!"
+    ]
+  },
+  {
+    "username": "Thomas",
+    "answers": [
+      "Lancelot",
+      "To find the Grail",
+      "Blue",
+      "I don't know that!"
+    ]
+  }
+]

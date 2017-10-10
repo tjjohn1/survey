@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+    head
+        style
+            include style.css
+            title="Admininstrator Tools"
+    body
+        #wrapperBody
+            #center
+                div(style="float:right;")
+                    form(action='/logout')
+                        input(type="submit", value="Logout")
+                h1 Administrator Tools
+                li Number of users/surveys currently recorded: #{userCount}
+                h2 Links to User Surveys by Username
+                each user, i in usersArray
+                    a(href="/tools/" + user) #{user}
+                    br

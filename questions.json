@@ -1,0 +1,26 @@
+{
+ "questions": [{
+   "number" : "1",
+   "question" : "What is your name?",
+   "answers" : ["Lancelot", "Arthur", "Guineviere"]
+ },
+
+ {
+   "number" : "2",
+   "question" : "What is your quest?",
+   "answers" : ["To find the Grail", "To slay the rabbit", "To find the Knights who say Ni!"]
+ },
+
+ {
+   "number" : "3",
+   "question" : "What is your favorite color?",
+   "answers" : ["Blue", "Red", "I don't know"]
+ },
+
+ {
+   "number" : "4",
+   "question" : "What is the capital of Assyria?",
+   "answers" : ["I don't know that!"]
+ }]
+
+}

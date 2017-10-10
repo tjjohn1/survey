@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+    head
+        style
+            include style.css
+            title="User Matches Page"
+    body
+        #wrapperBody
+            #center
+                div(style="float:right;")
+                    form(action='/logout')
+                        input(type="submit", value="Logout")
+                h1 User Matches Page for #{currentUser}
+                br
+                h2 Compatibility Scores:
+                    each username, i in userScores
+                        li User: #{userScores[i].username}
+                        li Score: #{userScores[i].score}
+                        br
+                form(action='/repeat')
+                    input(type="submit", value="Repeat Survey")
+                form(action='/lastSurvey')
+                    input(type="submit", value="Last Survey")
+        

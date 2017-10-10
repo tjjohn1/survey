@@ -1,0 +1,24 @@
+{
+  "name": "lab4_package",
+  "version": "1.0.0",
+  "description": "survey application",
+  "main": "survey.js",
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "^1.4.3",
+    "cookieparser": "^0.1.0",
+    "ejs": "~2.5.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "session": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "survey"
+  ],
+  "author": "Thomas Johnson",
+  "license": "ISC"
+}

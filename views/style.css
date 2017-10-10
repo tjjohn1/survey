@@ -1,0 +1,12 @@
+div#wrapperBody {
+ width:100%;
+ height:800px;
+ background:url(/images/headerImage.jpg);
+ background-repeat: no-repeat;
+ text-align:left-center;
+}
+
+div#center {
+    padding: 70px 0;
+    border: 3px blue;
+}

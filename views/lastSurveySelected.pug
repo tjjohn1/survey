@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        style
+            include style.css
+            title="User Survey"
+    body
+        #wrapperBody
+            #center
+                div(style="float:right;")
+                    form(action='/logout')
+                        input(type="submit", value="Logout")
+                h1 Question: #{question}
+                form(method='post', name='answer', id='answer')
+                    select(name = 'answer')
+                        option(value=answer0, selected=true) #{answer0}
+                    input(type="submit", value="Submit Answer")
